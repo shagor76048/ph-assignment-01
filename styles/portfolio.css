@@ -14,16 +14,69 @@
   font-style: normal;
 }
 
+/* common styles */
+.btn-primary{
+     background-color: rgba(78, 71, 255, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(78, 71, 255, 0.4);
+     transition: all 0.3s ease-in-out; 
+    transform: scale(1);
+}
+
+.btn-primary:hover {
+     background-color: #D6D9FF; 
+    color: #2D2E55;
+    border: 2px solid #A3A9FF; 
+    box-shadow: 0 10px 24px rgba(163, 169, 255, 0.4), 0 0 14px rgba(123, 130, 255, 0.2);
+    transform: scale(1.08);
+}
+
 
 
 
 /* Navbar Section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10% 0px 10%;
+}
 
-
+nav p{
+    color: rgba(78, 71, 255, 1);
+    width: 99; height: 51;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+nav a{
+    text-decoration: none;
+    
+}
 
 /* Banner Section */
 
+.header{
+    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+}
+header div{
+    text-align: center;
+    padding: 5%;
+}
 
+header div h1{
+    font-size: 300%;
+}
 
 /* Action Section */
 
