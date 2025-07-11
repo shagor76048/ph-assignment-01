@@ -15,6 +15,15 @@
 }
 
 /* common styles */
+
+.logo-color{
+    color:  rgba(78, 71, 255, 1);
+}
+
+.subtitle-color{
+    color: rgba(37, 36, 50, 0.5);
+}
+
 .btn-primary{
      background-color: rgba(78, 71, 255, 1);
     color: white;
@@ -51,12 +60,23 @@ nav{
 nav p{
     color: rgba(78, 71, 255, 1);
     width: 99; height: 51;
-    font-weight:bolder;
+    font-weight: 900;
     font-size:xx-large;
 }
 nav a{
     text-decoration: none;
     
+}
+
+/* section styles */
+
+.section-title{
+
+}
+
+.section-subtitle{
+    color: rgba(37, 36, 50, 0.5);
+
 }
 
 /* Banner Section */
@@ -80,23 +100,48 @@ header div h1{
 
 /* Action Section */
 
+.action-section{
+
+}
 
 
 /* Productive Users Section */
 
+.productive-users-section{
 
-
-/* Let’s Get In Touch Section */
-
-
-
-
-/* Footer Section */
-
+}
 
 
 
 /* Users’ Feedback Section */
+
+.feedback-section{
+
+}
+
+
+/* Get Started section */
+
+.get-started-section{
+
+}
+
+
+/* Let’s Get In Touch Section */
+
+.get-in-touch-section{
+
+}
+
+
+/* Footer Section */
+
+.footer-section{
+    
+}
+
+
+
 
 
 
