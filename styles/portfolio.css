@@ -141,14 +141,6 @@ main section{
    gap: 2em;
 }
 
-
-
-
-
-
-
-
-
 /* Productive Users Section */
 
 .productive-users-section{
@@ -157,15 +149,12 @@ background-color: rgba(78, 71, 255, 0.1);
 border-radius: 20px;
 margin: 0px 5%;
 
-
 }
 
 .productive-users-content{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    
-    
 }
 
 .productive-users{
@@ -179,13 +168,33 @@ margin: 0px 5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
-
 /* Users’ Feedback Section */
 
-.feedback-section{
+.feedback-section h2{
+text-align: center;
 
 }
+
+.feedback-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.users-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.users-feedback{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(123, 130, 255, 0.2);
+    justify-content: space-around;
+}
+
 
 
 /* Get Started section */
