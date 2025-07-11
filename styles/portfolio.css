@@ -24,6 +24,17 @@
     color: rgba(37, 36, 50, 0.5);
 }
 
+section img{
+    border-radius: 20%;
+    
+}
+
+
+
+
+
+
+
 .btn-primary{
      background-color: rgba(78, 71, 255, 1);
     color: white;
@@ -71,11 +82,12 @@ nav a{
 /* section styles */
 
 .section-title{
-
+    font-size: 200%;
 }
 
 .section-subtitle{
     color: rgba(37, 36, 50, 0.5);
+    font-size: 100%;
 
 }
 
@@ -100,9 +112,21 @@ header div h1{
 
 /* Action Section */
 
-.action-section{
-
+.action-section {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+   margin: 10% 10% 0px 10%;
+   gap: 2em;
 }
+
+
+
+
+
+
+
 
 
 /* Productive Users Section */
